@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f8fafc;
+}
+
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 30px 10%;
+    align-items: center;
+}
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav a {
+    color: #e5e7eb;
+    font-size: 17px;
+}
+.hero {
+    padding: 30px 10%;
+    background-color: #1f2937;
+}
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 40px;
+}
+.text {
+    flex: 1;
+}
+.text h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    max-width: 400px;
+    font-weight: 900;
+}
+.text p {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 400px;
+}
+.hero .image {
+    flex: 1;
+}
+.hero img {
+    width: 100%;
+}
+.btn {
+    background-color: #3882f6;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 15px;
+    display: inline-block;
+}
+.services {
+    padding: 60px 10%;
+    background-color: #f8fafc;
+}
+.services h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #111827;
+    text-align: center;
+}
+.cards {
+    margin-top: 60px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background-color: #fff;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid #dbeafe;
+}
+.card img {
+    width: 100px;
+    height: auto;
+}
+.card p {
+    text-align: center;
+    color: #64748b;
+    font-size: 16px;
+}
+.quote {
+    padding: 80px 15%;
+    background-color: #e5e7eb;
+}
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.author {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.cta {
+    padding: 80px 10%;
+    background-color: #f8fafc;
+}
+
+.cta-text {
+    background-color: #3882f6;
+    padding: 40px 60px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.cta-text span {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.cta .btn {
+    margin-top: 0;
+    border: 1px solid #fff;
+}
+footer {
+    padding: 60px 10%;
+    background-color: #1f2937;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
